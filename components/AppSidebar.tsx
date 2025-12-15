@@ -66,6 +66,11 @@ export const employeeItems = [
     icon: BadgeDollarSign,
   },
   {
+    title: "Task Assignments",
+    url: "/dashboard/task-assignments",
+    icon: User2,
+  },
+  {
     title: "Tasks",
     url: "/dashboard/tasks",
     icon: Calendar,
@@ -172,7 +177,7 @@ const AppSidebar = async () => {
           </SidebarGroupContent>
         </SidebarGroup>
         {/* COLLAPSABLE */}
-        <Collapsible defaultOpen className="group/collapsible">
+        {/* <Collapsible defaultOpen className="group/collapsible">
           <SidebarGroup>
             <SidebarGroupLabel asChild>
               <CollapsibleTrigger>
@@ -203,9 +208,9 @@ const AppSidebar = async () => {
               </SidebarGroupContent>
             </CollapsibleContent>
           </SidebarGroup>
-        </Collapsible>
+        </Collapsible> */}
         {/* NESTED */}
-        <SidebarGroup>
+        {/* <SidebarGroup>
           <SidebarGroupLabel>Nested Items</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
@@ -237,7 +242,7 @@ const AppSidebar = async () => {
               </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
-        </SidebarGroup>
+        </SidebarGroup> */}
       </SidebarContent>
       <SidebarFooter>
   <SidebarMenu>

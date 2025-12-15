@@ -29,7 +29,7 @@ export default function NavbarClient({ user }: { user: any }) {
     { href: "/", label: "Home" },
     { href: "/services", label: "Services" },
     { href: "/contact", label: "Contact" },
-    { href: "/testimonial", label: "Testimonial" },
+    { href: "/about", label: "About" },
   ];
 
   // Add dashboard link *only* if admin

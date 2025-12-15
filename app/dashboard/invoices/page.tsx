@@ -26,8 +26,9 @@ export default async function InvoicesPage() {
             
           
       </div>
-
+    
       <InvoiceTable />
+      
     </div>
   );
 }

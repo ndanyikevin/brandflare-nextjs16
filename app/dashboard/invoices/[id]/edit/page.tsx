@@ -8,7 +8,6 @@ import { Loader2 } from "lucide-react";
 
 type Client = { id: number; name: string };
 type InvoiceItemInput = {
-  id?: number;
   description: string;
   quantity: number;
   unitPrice: number;
@@ -43,7 +42,7 @@ export default function InvoiceForm({
   const addItem = () =>
     setItems([
       ...items,
-      { description: "", quantity: 1, unitPrice: 0, unitOfMeasurement: "" },
+      // { description: "", quantity: 1, unitPrice: 0, unitOfMeasurement: "" },
     ]);
 
   const removeItem = (index: number) =>
